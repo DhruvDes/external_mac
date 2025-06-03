@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Tue Jun  3 10:46:53 2025
+# Process ID         : 29572
+# Current directory  : C:/Users/dhruv/OneDrive/Desktop/external_mac
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent4464 C:\Users\dhruv\OneDrive\Desktop\external_mac\External_npu.xpr
+# Log file           : C:/Users/dhruv/OneDrive/Desktop/external_mac/vivado.log
+# Journal file       : C:/Users/dhruv/OneDrive/Desktop/external_mac\vivado.jou
+# Running On         : Dhruv
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i9-12900H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 34013 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39114 MB
+# Available Virtual  : 20242 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dhruv/OneDrive/Desktop/external_mac/External_npu.xpr
+update_compile_order -fileset sources_1
