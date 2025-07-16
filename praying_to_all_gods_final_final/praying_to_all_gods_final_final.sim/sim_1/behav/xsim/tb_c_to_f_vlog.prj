@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../../Working_files _ mac/data_aligner.sv" \
+"../../../../../../Working_files _ mac/mac_cell.sv" \
+"../../../../../../Working_files _ mac/matrix_uart_tx.sv" \
+"../../../../../../Working_files _ mac/mem_loader.sv" \
+"../../../../../../Working_files _ mac/systolic_array_core.sv" \
+"../../../../../../Working_files _ mac/systolic_controller.sv" \
+"../../../../../../Working_files _ mac/top.sv" \
+"../../../../../../Working_files _ mac/uart_rx.sv" \
+"../../../../../../Working_files _ mac/tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

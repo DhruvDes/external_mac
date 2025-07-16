@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_c_to_f_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_c_to_f" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9.500000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="132.500000001 ms"></ZoomEndTime>
+      <Cursor1Time time="30.000000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="272"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="divider" fp_name="divider9">
+      <obj_property name="label">Top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_c_to_f/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_c_to_f/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_c_to_f/done_trans" type="logic">
+      <obj_property name="ElementShortName">done_trans</obj_property>
+      <obj_property name="ObjectShortName">done_trans</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider12">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group45" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/load_done_a" type="logic">
+         <obj_property name="ElementShortName">load_done_a</obj_property>
+         <obj_property name="ObjectShortName">load_done_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/load_done_b" type="logic">
+         <obj_property name="ElementShortName">load_done_b</obj_property>
+         <obj_property name="ObjectShortName">load_done_b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/mac_done" type="logic">
+         <obj_property name="ElementShortName">mac_done</obj_property>
+         <obj_property name="ObjectShortName">mac_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/tx_done" type="logic">
+         <obj_property name="ElementShortName">tx_done</obj_property>
+         <obj_property name="ObjectShortName">tx_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/load_sel" type="array">
+         <obj_property name="ElementShortName">load_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">load_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/load_start" type="logic">
+         <obj_property name="ElementShortName">load_start</obj_property>
+         <obj_property name="ObjectShortName">load_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/mac_start" type="logic">
+         <obj_property name="ElementShortName">mac_start</obj_property>
+         <obj_property name="ObjectShortName">mac_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/tx_start" type="logic">
+         <obj_property name="ElementShortName">tx_start</obj_property>
+         <obj_property name="ObjectShortName">tx_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/controller/current_state" type="array">
+         <obj_property name="ElementShortName">current_state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider46">
+      <obj_property name="label">RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_c_to_f/uut/receiver/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/receiver/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/receiver/data" type="array">
+         <obj_property name="ElementShortName">data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/receiver/valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/receiver/state" type="array">
+         <obj_property name="ElementShortName">state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/receiver/bit_count" type="array">
+         <obj_property name="ElementShortName">bit_count[2:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_count[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/receiver/shift_reg" type="array">
+         <obj_property name="ElementShortName">shift_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_reg[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider47">
+      <obj_property name="label">Loader</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group48" type="group">
+      <obj_property name="label">Loader</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/data_valid" type="logic">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/load_sel" type="array">
+         <obj_property name="ElementShortName">load_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">load_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/load_start" type="logic">
+         <obj_property name="ElementShortName">load_start</obj_property>
+         <obj_property name="ObjectShortName">load_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/load_done_a" type="logic">
+         <obj_property name="ElementShortName">load_done_a</obj_property>
+         <obj_property name="ObjectShortName">load_done_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/load_done_b" type="logic">
+         <obj_property name="ElementShortName">load_done_b</obj_property>
+         <obj_property name="ObjectShortName">load_done_b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/mem_a" type="array">
+         <obj_property name="ElementShortName">mem_a[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_a[0:3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/loader/mem_b" type="array">
+         <obj_property name="ElementShortName">mem_b[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_b[0:3][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider77">
+      <obj_property name="label">process</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group78" type="group">
+      <obj_property name="label">processor</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/st_rst" type="logic">
+         <obj_property name="ElementShortName">st_rst</obj_property>
+         <obj_property name="ObjectShortName">st_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/A" type="array">
+         <obj_property name="ElementShortName">A[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[0:3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/B" type="array">
+         <obj_property name="ElementShortName">B[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[0:3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/completed" type="logic">
+         <obj_property name="ElementShortName">completed</obj_property>
+         <obj_property name="ObjectShortName">completed</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/C" type="array">
+         <obj_property name="ElementShortName">C[0:3][0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">C[0:3][0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/A_out" type="array">
+         <obj_property name="ElementShortName">A_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/B_out" type="array">
+         <obj_property name="ElementShortName">B_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/C_to_cl" type="array">
+         <obj_property name="ElementShortName">C_to_cl[0:3][0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">C_to_cl[0:3][0:3][15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/state" type="array">
+         <obj_property name="ElementShortName">state[7:0]</obj_property>
+         <obj_property name="ObjectShortName">state[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/mac_next_state" type="array">
+         <obj_property name="ElementShortName">mac_next_state[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_next_state[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/count" type="array">
+         <obj_property name="ElementShortName">count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/st_rst_rf_cf" type="logic">
+         <obj_property name="ElementShortName">st_rst_rf_cf</obj_property>
+         <obj_property name="ObjectShortName">st_rst_rf_cf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/done_a" type="logic">
+         <obj_property name="ElementShortName">done_a</obj_property>
+         <obj_property name="ObjectShortName">done_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/done_b" type="logic">
+         <obj_property name="ElementShortName">done_b</obj_property>
+         <obj_property name="ObjectShortName">done_b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/processor/done_store" type="logic">
+         <obj_property name="ElementShortName">done_store</obj_property>
+         <obj_property name="ObjectShortName">done_store</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider61">
+      <obj_property name="label">transmitter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/data_valid" type="logic">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/C" type="array">
+         <obj_property name="ElementShortName">C[0:3][0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">C[0:3][0:3][15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/bucket" type="array">
+         <obj_property name="ElementShortName">bucket[0:31][15:0]</obj_property>
+         <obj_property name="ObjectShortName">bucket[0:31][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/bucket_numb" type="array">
+         <obj_property name="ElementShortName">bucket_numb[6:0]</obj_property>
+         <obj_property name="ObjectShortName">bucket_numb[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/bit_frm_bucket" type="array">
+         <obj_property name="ElementShortName">bit_frm_bucket[4:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_frm_bucket[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/state" type="array">
+         <obj_property name="ElementShortName">state[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_c_to_f/uut/transmitter/tx" type="logic">
+         <obj_property name="ElementShortName">tx</obj_property>
+         <obj_property name="ObjectShortName">tx</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
