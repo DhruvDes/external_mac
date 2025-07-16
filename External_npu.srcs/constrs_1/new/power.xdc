@@ -1,1 +1,0 @@
-set_operating_conditions -design_power_budget 2.5
